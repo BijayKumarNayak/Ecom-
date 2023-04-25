@@ -1,0 +1,72 @@
+.wrapper{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+
+    
+}
+.container{
+    height: 350px;
+    width: 500px;
+    /* border: 1px solid red; */
+    text-align: center;
+    /* margin: auto; */
+    margin-top: 100px;
+    margin-bottom: auto;
+    border: 2px solid #ccc;
+    border-radius: 9px;
+    box-shadow: 10px 10px #ccc;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    /* padding: 150px 60px; */
+   
+
+}
+.container img{
+    height: 350px;
+    width: 500px;
+    object-fit: cover;
+    position: absolute;
+    opacity: 0.3;
+}
+.input_box{
+    height: 40px;
+    width: 300px;
+    margin: 40px 85px;
+    /* border: 1px solid; */
+    border: 1px solid #ccc;
+    border-radius: 9px;
+    position: relative;
+}
+.input_box:hover{
+    border-color: aqua;
+}
+.password_box{
+    height: 40px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 9px;
+    margin-left: 85px;
+    margin-bottom: 40px;
+    position: relative;
+
+}
+.password_box:hover{
+    border-color: aqua;
+}
+.submit_btn{
+    height: 40px;
+    width: 200px;
+    margin-top: 1opx;
+    margin-left: 134px;
+    margin-right: auto;
+    border-radius: 9px;
+    background-color: #0e88e2f0;
+    border: none;
+    color: white;
+    position: relative;
+}
+button:hover{
+    background-color: rgb(51, 51, 199);
+}
